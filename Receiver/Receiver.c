@@ -60,10 +60,10 @@ int main()
 {
     char str[60];
     int num1, num2, num3,lastnum1 = 0, index = 1;
-    int Battery[5];
-    int Current[5];
+    int Battery[50];
+    int Current[50];
 
-    while(index < 5)
+    while(index < 50)
     {
         fgets(str, 60, stdin);
         sscanf(str, "[Measurenment Number: Battery Charge, Current] : [%d: %d,%d]", &num1, &num2, &num3);
