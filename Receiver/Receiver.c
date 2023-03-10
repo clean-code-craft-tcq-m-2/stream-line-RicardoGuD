@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "Receiver.h"
 
 void SimpleMovingAverage(int n, int array[])
 {
@@ -53,7 +53,6 @@ void printMaxMinCurrent(int n, int Current[])
 {
     printf("[Maximum [Current] Value, Minumim Current Value] : [%d, %d]", MaxValue(n,Current),MinValue(n, Current));
 }
-
 
 
 int main()
